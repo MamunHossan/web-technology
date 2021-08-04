@@ -1,0 +1,382 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.header
+{
+	height: 100%;
+	background-image: url(banner1.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	padding-top: 30px;
+	text-align: center;
+}
+
+
+
+.header img{
+	width: 170px;
+	float: left;
+}
+.login-btn{
+	width: 70px;
+	padding: 8px 0;
+	outline: none !important;
+	border: 2px solid #fff;
+	border-radius: 50px;
+	background: transparent;
+	color: #fff;
+	float: right;
+
+
+}
+.header h1{
+	padding-top: 260px;
+	padding-bottom: 0;
+	font-size: 55px;
+}
+.header p{
+	margin: 18px 0;
+}
+.input-group{
+	width: 90px;
+	max-width: 500px;
+	border-radius: 30px;
+	background: #fff;
+	margin: auto;
+	padding: 2px;
+}
+.form-control{
+	border: 0 !important;
+	border-radius: 30px !important;
+	margin: 2px;
+	box-shadow: none !important;
+}
+.input-group-text{
+	width: 100px;
+	background-image: linear-gradient(#00ff7e,#1f3d90);
+	border: 0 !important;
+	color: #fff !important;
+	padding: 0 25 !important;
+	border-radius: 30px !important;
+	box-shadow: none;
+}
+
+
+.mu-hero-top-info {
+	display: inline;
+	float: left;
+	text-align: right;
+	width: 50%;
+}
+
+.mu-hero-top-info ul {
+	margin-top: 14px;
+}
+
+.mu-hero-top-info ul li {
+	list-style: none;
+	color: #fff;
+	font-size: 18px;
+	display: inline-block;
+	padding: 0 8px;
+	border-left: 1px solid #f8f8f8;
+	font-size: 16px;
+	float: right;
+}
+
+.mu-hero-top-info ul li:last-child {
+	border-left: none;
+}
+
+.mu-menu-btn {
+	position: fixed;
+	right: 15%;
+	top: 50px;
+	color: #fff;
+	font-size: 25px;
+	border: 2px solid #fff;
+	padding: 5px 14px;
+	z-index: 999;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.mu-menu-btn:hover,
+.mu-menu-btn:focus {
+	border: 2px solid #fff;
+}
+
+.mu-scrolldown-area {
+	display: inline;
+	float: left;
+	text-align: center;
+	width: 100%;
+}
+
+.mu-scrolldown {
+	font-size: 40px;
+	color: #fff;
+	display: inline-block;
+	margin-top: 50px;
+}
+
+.mu-scrolldown:hover,
+.mu-scrolldown:focus {
+	color: #fff;
+}
+
+
+/*--------------------*/
+/* FEATURED TOURS */
+/*--------------------*/
+
+#mu-featured-tours {
+	background-color: #fff;
+	float: left;
+	padding: 100px 0;
+	display: inline;
+	width: 100%;
+}
+
+.mu-featured-tours-area {
+	display: inline;
+	float: left;
+	text-align: center;
+	width: 100%;
+}
+
+.mu-featured-tours-area h2 {
+	color: #333;	
+}
+
+.mu-title-content {
+	padding: 0 10%;
+}
+
+.mu-featured-tours-content {
+	display: inline;
+	float: left;
+	margin-top: 40px;
+	width: 100%;
+}
+
+.mu-featured-tours-single {
+	background-color: #f8f8f8;
+	display: inline;
+	float: left;
+	width: 100%;
+	margin: 15px 0;
+}
+
+.mu-featured-tours-single-info {
+	display: inline;
+	float: left;
+	position: relative;
+	width: 100%;
+	padding: 20px 10px;
+}
+
+.mu-featured-tours-single h3 {
+	font-size: 22px;
+	margin-bottom: 5px;
+}
+
+.mu-featured-tours-single h4 {
+	font-size: 16px;
+	margin-bottom: 10px;
+	font-weight: 300;
+}
+
+.mu-price-tag {
+	position: absolute;
+	bottom: 25px;
+	left: 15px;
+	color: #333;
+	font-size: 22px;
+	font-weight: 600;
+}
+
+.mu-featured-tours-single p {
+	font-size: 15px;
+}
+
+.mu-featured-tours-single-info .mu-book-now-btn {
+	margin-top: 10px;
+	font-size: 15px;
+	text-transform: capitalize;
+	float: right;
+}
+
+
+/*WHY US*/
+
+#mu-why-us {
+	background-color: #fff;
+	float: left;
+	padding: 50px 0 100px;
+	display: inline;
+	width: 100%;
+}
+
+.mu-why-us-area {
+	display: inline;
+	float: left;
+	text-align: center;
+	width: 100%;
+}
+
+.mu-why-us-area h2 {
+	color: #333;
+
+}
+
+.mu-why-us-content {
+	display: inline;
+	float: left;
+	margin-top: 50px;
+	width: 100%;
+}
+
+.mu-why-us-single {
+	display: inline;
+	float: left;
+	width: 100%;
+	padding: 0 5px;
+}
+
+.my-why-us-single-icon {
+	border: 1px solid #ccc;
+	font-size: 30px;
+	display: inline-block;
+	width: 85px;
+	height: 85px;
+	line-height: 85px;
+	border-radius: 50%;
+	margin-bottom: 20px;
+}
+
+.mu-why-us-single h3 {
+	font-size: 22px;
+	margin-bottom: 15px;
+}
+
+.mu-why-us-single p {
+	font-size: 15px;
+}
+
+
+/*--------------------*/
+/* VIDEO */
+/*--------------------*/
+
+
+#mu-video {
+	background-image: url("assets/images/about-video-bg.jpeg");
+	background-attachment: fixed;
+	background-position: center center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	display: inline;
+	float: left;
+	position: relative;
+	width: 100%;
+}
+
+#mu-video:after{
+	content: '';
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	height: 100%;
+	opacity: 0.94;
+	width: 100%;
+	z-index: 10;
+}
+
+.mu-video-area {
+	display: inline;
+	float: left;
+	position: relative;
+	padding: 100px 0;
+	text-align: center;
+	width: 100%;
+	z-index: 99;
+}
+
+.mu-video-area h2,
+.mu-video-area p {
+	color: #fff;
+}
+
+.mu-video-content {
+	display: inline;
+	float: left;
+	width: 100%;
+	margin-top: 50px;
+}
+
+.mu-video-content iframe {
+	border: none;
+}
+
+
+
+
+#mu-contact {
+	background-color: #fff;
+	display: inline;
+	float: left;
+	width: 100%;
+	align-content: center;
+}
+.mu-contact-area {
+	display: inline;
+	float: left;
+	text-align: center;
+	padding: 100px 18%;
+	width: 100%;
+}
+
+.mu-contact-content{
+	display: inline;
+	float: left;
+	margin-top: 50px;
+	width: 100%;
+}
+.mu-contact-form-area {
+	display: inline;
+	float: left;
+	width: 100%;
+}
+.mu-contact-form {
+	text-align: center;
+}
+
+
+
+/*--------------------*/
+/* GOOGLE MAP */
+/*--------------------*/
+
+#mu-google-map {
+	display: inline;
+	float: left;
+	width: 100%;
+}
+
+#mu-google-map iframe {
+	height: 550px;
+	width: 100%;
+}
+
+
+
+
+
+
+
